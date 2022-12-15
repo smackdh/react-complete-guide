@@ -1,7 +1,7 @@
 import Expenses from "./components/Expenses/Expenses";
 import Card from "./components/UI/Card";
 
-function App() {
+const App = () => {
   const expenses = [
     { id: "e1", title: "Cat Food", amount: 80, date: new Date(2022, 12, 15) },
     {
@@ -19,6 +19,6 @@ function App() {
       <Expenses items={expenses} />
     </Card>
   );
-}
+};
 
 export default App;
