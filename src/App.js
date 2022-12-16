@@ -1,6 +1,5 @@
 import Expenses from "./components/Expenses/Expenses";
-import Card from "./components/UI/Card";
-
+import NewExpense from "./components/NewExpense/NewExpense";
 const App = () => {
   const expenses = [
     { id: "e1", title: "Cat Food", amount: 80, date: new Date(2022, 12, 15) },
@@ -14,10 +13,10 @@ const App = () => {
   ];
 
   return (
-    <Card className="expenses">
-      <h2>Let's get started!</h2>
-      <Expenses items={expenses} />
-    </Card>
+    <div>
+      <NewExpense />
+      <Expenses items={expenses} />;
+    </div>
   );
 };
 
