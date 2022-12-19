@@ -13,7 +13,7 @@ Keep track for your expenses!
 
 Install node packages
 ```
-node install
+npm install
 ```
 
 ### Run a server
@@ -23,7 +23,7 @@ npm start
 
 ## Built With
 - [React.js](https://react.org/)
-- [CSS]
+- CSS
 
 ## License
 This project is licensed under the MIT License
